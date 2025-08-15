@@ -1,8 +1,10 @@
 ---
-title: Write It Right - Amazon Q Markdown Rules That Matter
+title: Disney+ Engineering Rules - Amazon Q Customization
 author: Manu Stroh - Disney Media Medellín Workshop
 theme:
   override:
+    default:
+      alignment: center
     palette:
       classes:
         globant_green:
@@ -30,296 +32,285 @@ theme:
     footer:
       style: template
       left: '🏰 Disney Media Workshop | Globant'
-      center: 'Write It Right: Amazon Q Rules'
+      center: 'Disney+ Engineering Rules'
       right: '{current_slide} / {total_slides}'
       height: 3
 ---
 
-<!-- newlines: 1 -->
+<!-- font_size: 5 -->
 
-# <span class="workshop_gold">🏰 WRITE IT RIGHT: AMAZON Q MARKDOWN RULES THAT MATTER 🏰</span>
-
-<!-- pause -->
-
-# <span class="disney_blue">Disney Media Medellín AI Workshop</span>
+# <span class="workshop_gold">🏰 DISNEY+ ENGINEERING RULES 🏰</span>
+# <span class="disney_blue">Amazon Q Customization Workshop</span>
 ## <span class="globant_green">Powered by Globant Innovation</span>
-
-<!-- pause -->
-
-## <span class="tech_cyan">👨💻 Manu Stroh</span>
-### <span class="workshop_gold">Technical Manager @ Disney Entertainment</span>
-### <span class="globant_green">Session 1: Markdown Rules Mastery</span>
-
-<!-- pause -->
-
-# <span class="blink">🎬 ▓▓▓ WELCOME TO THE MAGIC OF AI CUSTOMIZATION ▓▓▓ 🎬</span>
+## <span class="tech_cyan">👨💻 Manu Stroh - Technical Manager @ Disney Entertainment</span>
+# <span class="blink">🎬 ▓▓▓ STREAMING PLATFORM AI MASTERY ▓▓▓ 🎬</span>
 
 <!-- end_slide -->
 
-# <span class="workshop_gold">🏰 WRITE IT RIGHT: AMAZON Q RULES 🏰</span>
+<!-- font_size: 5 -->
 
-## <span class="globant_green">Powered by Globant</span>
-
-<!-- end_slide -->
-
-# <span class="disney_blue">📝 WHY MARKDOWN?</span>
-
-## <span class="globant_green">What is Markdown?</span>
-
-<!-- incremental_lists: true -->
-* <span class="tech_cyan">📄 Lightweight markup language (2004)</span>
-* <span class="workshop_gold">✍️ Human-readable plain text → HTML</span>
-* <span class="disney_blue">🌐 Universal: GitHub, Stack Overflow, Discord</span>
-* <span class="globant_green">⚡ Simple syntax, powerful output</span>
-
-<!-- pause -->
-
-## <span class="workshop_gold">Why Markdown for AI Rules?</span>
-
-<!-- incremental_lists: true -->
-* <span class="tech_cyan">🎯 **Readability**: Engineers can read and modify easily</span>
-* <span class="disney_blue">🔄 **Version Control**: Git-friendly, trackable changes</span>
-* <span class="globant_green">🚀 **Portability**: Works across platforms and tools</span>
-* <span class="workshop_gold">📚 **Documentation**: Self-documenting rule sets</span>
+# <span class="workshop_gold">🏰 DISNEY+ STREAMING PLATFORM 🏰</span>
+## <span class="disney_blue">Senior Full-Stack Engineer Profile</span>
+## <span class="globant_green">React • Node.js • TypeScript • AWS</span>
+## <span class="tech_cyan">8+ Years Experience • Solutions Architect Certified</span>
 
 <!-- end_slide -->
 
-# <span class="warning_red">⚡ WHY CUSTOMIZATION MATTERS</span>
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="disney_blue">🎯 DISNEY+ TECHNICAL STACK</span>
+<!-- reset_layout -->
 
 <!-- column_layout: [1, 1] -->
 
 <!-- column: 0 -->
-
-## <span class="disney_blue">🎭 Without Rules</span>
-
-<!-- incremental_lists: true -->
-* <span class="warning_red">💀 Generic responses</span>
-* <span class="warning_red">🎲 Unpredictable behavior</span>
-* <span class="warning_red">📦 No domain expertise</span>
-* <span class="warning_red">🚫 Context-blind</span>
+## <span class="globant_green">Frontend Excellence</span>
+* <span class="tech_cyan">React 18+ with TypeScript strict mode</span>
+* <span class="workshop_gold">@tanstack/react-query for state management</span>
+* <span class="disney_blue">Styled Components for theming</span>
+* <span class="globant_green">Vite for build tooling</span>
 
 <!-- column: 1 -->
-
-## <span class="globant_green">🎯 With Rules</span>
-
-<!-- incremental_lists: true -->
-* <span class="globant_green">🏆 Domain expertise</span>
-* <span class="globant_green">🤖 Consistent behavior</span>
-* <span class="globant_green">🧠 Context-aware</span>
-* <span class="globant_green">⚡ Accelerated workflows</span>
+## <span class="workshop_gold">Backend & Infrastructure</span>
+* <span class="tech_cyan">Node.js with Express/Fastify</span>
+* <span class="disney_blue">AWS ECS/EKS for containerization</span>
+* <span class="globant_green">CloudFront CDN for global delivery</span>
+* <span class="workshop_gold">DynamoDB + ElastiCache</span>
 
 <!-- end_slide -->
 
-# <span class="workshop_gold">🎬 Disney+ Use Case</span>
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="warning_red">🎬 DISNEY+ ENGINEERING STANDARDS</span>
+<!-- reset_layout -->
 
-```markdown +line_numbers
-# Disney+ Engineering Rules
+<!-- column_layout: [1, 1] -->
 
-## Domain Context
-- High-scale streaming platforms
-- React, Node.js, and AWS services
-- Performance and user experience priority
-- Security for content protection
+<!-- column: 0 -->
+## <span class="disney_blue">Code Quality & Performance</span>
+* <span class="globant_green">TypeScript strict mode mandatory</span>
+* <span class="tech_cyan">WCAG 2.1 AA accessibility compliance</span>
+* <span class="workshop_gold">Core Web Vitals optimization</span>
+* <span class="disney_blue">Comprehensive error handling</span>
 
-## Code Standards
-- TypeScript for all new projects
-- Disney accessibility guidelines (WCAG 2.1 AA)
-- Proper error handling and logging
-- Mobile-first responsive design
-```
-
-<!-- end_slide -->
-
-# <span class="tech_cyan">💻 LEVEL 1: BASIC PERSONALITY RULES</span>
-
-## <span class="globant_green">🏗️ Foundation Rules</span>
-
-```markdown +line_numbers
-# Disney Streaming Platform Rules
-
-## Core Identity
-- I'm a Senior Full-Stack Engineer at Disney+
-- Expert in React, Node.js, TypeScript, and AWS
-- Focus on scalable streaming architecture
-- Always consider performance and accessibility
-
-## Communication Style
-- Professional but approachable
-- Provide context for technical decisions
-- Include performance implications
-- Reference Disney's engineering standards
-```
+<!-- column: 1 -->
+## <span class="globant_green">Security & Content Protection</span>
+* <span class="warning_red">DRM integration patterns</span>
+* <span class="tech_cyan">Content encryption strategies</span>
+* <span class="workshop_gold">OWASP compliance</span>
+* <span class="disney_blue">Secure authentication flows</span>
 
 <!-- end_slide -->
 
-# <span class="workshop_gold">💻 LEVEL 2: ADVANCED CONTEXT RULES</span>
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="workshop_gold">🎬 DISNEY API INTEGRATION</span>
+<!-- reset_layout -->
 
-## <span class="disney_blue">🔧 Technical Stack Configuration</span>
-
-```yaml +line_numbers
-# Advanced Disney+ Engineering Context
-
-technical_stack:
-  frontend:
-    - "React 18+ with Concurrent Features"
-    - "TypeScript strict mode"
-    - "Styled Components for theming"
-    - "React Query for state management"
-  backend:
-    - "Node.js with Express/Fastify"
-    - "GraphQL with Apollo Server"
-    - "Microservices architecture"
-    - "Event-driven patterns"
-```
-
-<!-- end_slide -->
-
-# <span class="workshop_gold">💻 LEVEL 2: INFRASTRUCTURE & STANDARDS</span>
-
-## <span class="disney_blue">🔧 Infrastructure & Code Standards</span>
-
-```yaml +line_numbers
-# Advanced Disney+ Engineering Context (continued)
-
-  infrastructure:
-    - "AWS ECS/EKS for containerization"
-    - "CloudFront CDN for global delivery"
-    - "DynamoDB for user preferences"
-    - "ElastiCache for session management"
-
-code_standards:
-  testing: "Jest + React Testing Library + Cypress"
-  linting: "ESLint + Prettier + Husky pre-commit"
-  accessibility: "WCAG 2.1 AA compliance mandatory"
-  performance: "Core Web Vitals optimization"
-```
-
-<!-- end_slide -->
-
-# <span class="warning_red">💻 LEVEL 3: BUSINESS LOGIC RULES</span>
-
-## <span class="tech_cyan">🎯 Rule-Driven Code Generation</span>
-
-```typescript +line_numbers +exec
-// Demo: Rule-driven code generation
-interface DisneyRules {
-  security: 'DRM_REQUIRED' | 'OPEN';
-  experience: 'PREMIUM' | 'STANDARD';
-  scale: 'GLOBAL' | 'REGIONAL';
-}
-
-const generateRules = (rules: DisneyRules) => {
-  console.log('🏰 Disney+ Rules Generated:');
-  console.log(`🔒 Security: ${rules.security}`);
-  console.log(`✨ UX: ${rules.experience}`);
-  console.log(`🌍 Scale: ${rules.scale}`);
+```typescript +line_numbers
+// Disney API Service (https://api.disneyapi.dev/)
+export const disneyApi = {
+  async getCharacters(params: SearchParams): Promise<DisneyApiResponse> {
+    const searchParams = new URLSearchParams();
+    if (params.name) searchParams.append('name', params.name);
+    
+    const response = await fetch(`${BASE_URL}/character?${searchParams}`);
+    return await handleApiResponse(response);
+  },
+  
+  async getCharacterById(id: number): Promise<DisneyCharacter> {
+    const response = await fetch(`${BASE_URL}/character/${id}`);
+    return (await handleApiResponse(response)).data;
+  }
 };
+```
 
-generateRules({
-  security: 'DRM_REQUIRED',
-  experience: 'PREMIUM',
-  scale: 'GLOBAL'
+<!-- end_slide -->
+
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="tech_cyan">💻 STREAMING OPTIMIZATIONS</span>
+<!-- reset_layout -->
+
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+## <span class="globant_green">🚀 Performance Engineering</span>
+* <span class="disney_blue">Code splitting at route and component level</span>
+* <span class="workshop_gold">Image optimization with WebP/AVIF formats</span>
+* <span class="tech_cyan">Service Worker implementation for caching</span>
+* <span class="globant_green">Core Web Vitals monitoring</span>
+
+<!-- column: 1 -->
+## <span class="workshop_gold">Content Management</span>
+* <span class="disney_blue">Lazy loading for large content catalogs</span>
+* <span class="tech_cyan">Infinite scroll with virtualization</span>
+* <span class="globant_green">Search with debouncing and caching</span>
+* <span class="workshop_gold">Multi-language support</span>
+
+<!-- end_slide -->
+
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="workshop_gold">💻 PROJECT GENERATION RULES</span>
+<!-- reset_layout -->
+
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+## <span class="disney_blue">🏗️ Always Create Complete Structure</span>
+* <span class="globant_green">Project name: "disney-streaming-app"</span>
+* <span class="tech_cyan">Complete package.json with correct dependencies</span>
+* <span class="workshop_gold">TypeScript configs: tsconfig.json + tsconfig.node.json</span>
+* <span class="disney_blue">Vite config with React plugin AND Vitest</span>
+
+<!-- column: 1 -->
+## <span class="globant_green">Code Generation Standards</span>
+* <span class="tech_cyan">Comprehensive error handling with loading states</span>
+* <span class="workshop_gold">Disney+ color scheme: #0f0f23, #0066cc, #ffd700</span>
+* <span class="disney_blue">Bilingual README (English + Spanish)</span>
+* <span class="globant_green">80%+ test coverage with AAA pattern</span>
+
+<!-- end_slide -->
+
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="warning_red">💻 CRITICAL CONFIGURATION RULES</span>
+<!-- reset_layout -->
+
+## <span class="tech_cyan">🎯 Never Make These Mistakes</span>
+* <span class="warning_red">ALWAYS use @tanstack/react-query (NOT react-query)</span>
+* <span class="warning_red">ALWAYS use Vitest instead of Jest for testing</span>
+* <span class="warning_red">Configure Vitest in vite.config.ts with jsdom</span>
+* <span class="warning_red">Fix spinner display by checking data existence</span>
+## <span class="globant_green">Dependencies That Matter</span>
+```json
+"@tanstack/react-query": "^4.36.1"
+"styled-components": "^6.1.1"
+"vitest": "^1.0.4"
+"@testing-library/react": "^13.4.0"
+```
+
+<!-- end_slide -->
+
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="warning_red">💻 TESTING EXCELLENCE</span>
+<!-- reset_layout -->
+
+## <span class="tech_cyan">🧪 AAA Pattern (Arrange, Act, Assert)</span>
+```typescript +line_numbers
+describe('SearchBar', () => {
+  const mockOnSearch = vi.fn();
+  
+  it('calls onSearch when Enter key is pressed', async () => {
+    // Arrange: Set up test data and mocks
+    const user = userEvent.setup();
+    render(<SearchBar onSearch={mockOnSearch} />);
+    
+    // Act: Execute the function being tested
+    const input = screen.getByRole('textbox');
+    await user.type(input, 'Elsa');
+    await user.keyboard('{Enter}');
+    
+    // Assert: Verify the expected outcome
+    expect(mockOnSearch).toHaveBeenCalledWith('Elsa');
+  });
 });
 ```
 
 <!-- end_slide -->
 
-# <span class="globant_green">🏆 ENTERPRISE BEST PRACTICES</span>
-
-## <span class="disney_blue">🎯 Production-Ready Rule Patterns</span>
-
-### <span class="tech_cyan">Pattern 1: Modular Rule Architecture</span>
-
-```bash +line_numbers
-# Disney+ Rules Structure
-.amazonq/
-├── rules/
-│   ├── core/
-│   │   ├── personality.md          # Base AI personality
-│   │   ├── communication.md        # Communication style
-│   │   └── security.md            # Security guidelines
-│   ├── domains/
-│   │   ├── frontend-react.md       # React-specific rules
-│   │   ├── backend-node.md         # Node.js patterns
-│   │   ├── aws-infrastructure.md   # AWS best practices
-│   │   └── streaming-platform.md  # Disney+ specific
-│   └── teams/
-│       ├── platform-team.md        # Platform engineering
-│       ├── content-team.md         # Content management
-│       └── mobile-team.md          # Mobile development
-```
-
-<!-- end_slide -->
-
-# <span class="workshop_gold">🎬 WORKSHOP CHALLENGE</span>
-
-## <span class="disney_blue">🚀 Hands-On Challenge</span>
-
-### <span class="globant_green">Mission: Create Disney+ Streaming Rules</span>
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="globant_green">🏆 DISNEY+ RULES STRUCTURE</span>
+<!-- reset_layout -->
 
 <!-- column_layout: [1, 1] -->
 
 <!-- column: 0 -->
-
-#### <span class="tech_cyan">🎯 Your Task (15 minutes)</span>
-
-<!-- incremental_lists: true -->
-* 📁 Create `.amazonq/rules/disney-streaming.md`
-* 🎭 Define your role (Frontend/Backend/DevOps)
-* 🛠️ Specify your tech stack preferences
-* 🏰 Include Disney-specific requirements
-* 🧪 Test with a sample question
-
-<!-- column: 1 -->
-
-#### <span class="workshop_gold">🎪 Starter Template</span>
-
+## <span class="disney_blue">🎯 Disney+ Structure</span>
 ```bash +line_numbers
-# Quick Setup
-mkdir -p .amazonq/rules
-
-# Your Disney+ Rules
-cat > .amazonq/rules/disney-streaming.md << 'EOF'
-# Disney+ Engineering Assistant
-
-## My Role
-- [YOUR ROLE]: Senior [Frontend/Backend/DevOps] Engineer
-- Team: Disney+ Streaming Platform
-- Location: Disney Media Medellín
-
-## Technical Focus
-- Primary: [React/Node.js/AWS/Kubernetes]
-- Secondary: [TypeScript/GraphQL/Docker]
-- Specialty: [Performance/Security/Scalability]
-
-## Disney Standards
-- Accessibility: WCAG 2.1 AA mandatory
-- Performance: Core Web Vitals optimization
-- Security: Content protection & DRM
-- Scale: Global streaming platform
-EOF
+.amazonq/
+├── rules/
+│   ├── disney-streaming-demo.md
+│   ├── advanced-disney-profile.md
+│   └── project-templates/
+│       ├── react-streaming-app.md
+│       ├── node-microservice.md
+│       └── aws-infrastructure.md
 ```
 
-<!-- pause -->
+<!-- column: 1 -->
+## <span class="warning_red">🎆 Enterprise AI Platform</span>
+```bash +line_numbers
+.amazonq/
+├── rules/
+│   ├── core/
+│   │   ├── ai-architect-persona.md
+│   │   ├── ml-ops-specialist.md
+│   │   └── data-scientist-lead.md
+│   ├── domains/
+│   │   ├── computer-vision.md
+│   │   ├── nlp-transformers.md
+│   │   ├── recommendation-systems.md
+│   │   └── distributed-training.md
+│   ├── frameworks/
+│   │   ├── pytorch-lightning.md
+│   │   ├── huggingface-ecosystem.md
+│   │   └── ray-distributed.md
+│   ├── infrastructure/
+│   │   ├── kubernetes-gpu-clusters.md
+│   │   ├── mlflow-experiment-tracking.md
+│   │   └── feature-store-feast.md
+│   └── compliance/
+│       ├── model-governance.md
+│       ├── bias-detection.md
+│       └── explainable-ai.md
+```
 
 <!-- reset_layout -->
 
-## <span class="warning_red">🎯 Success Metrics</span>
+## <span class="workshop_gold">Rule Categories</span>
+* <span class="tech_cyan">🎭 Personality & Communication</span>
+* <span class="disney_blue">🛠️ Technical Stack Preferences</span>
+* <span class="globant_green">📋 Code Generation Standards</span>
+* <span class="workshop_gold">🧪 Testing & Quality Requirements</span>
 
-<!-- incremental_lists: true -->
-* <span class="globant_green">✅ Rules file created and structured</span>
-* <span class="disney_blue">✅ Domain expertise clearly defined</span>
-* <span class="tech_cyan">✅ Disney-specific context included</span>
-* <span class="workshop_gold">✅ AI responses show measurable improvement</span>
+<!-- end_slide -->
 
-<!-- pause -->
+<!-- font_size: 5 -->
+<!-- alignment: center -->
+# <span class="workshop_gold">🎬 REAL WORLD EXAMPLE</span>
+## <span class="disney_blue">🚀 Disney Streaming App Generated</span>
+<!-- reset_layout -->
 
----
+<!-- column_layout: [1, 1] -->
 
-<span class="blink">🏰 DISNEY MAGIC ACTIVATED - RULES DEPLOYED! 🏰</span>
+<!-- column: 0 -->
+### <span class="globant_green">Production-Ready Features</span>
+* <span class="tech_cyan">Real Disney API integration (api.disneyapi.dev)</span>
+* <span class="workshop_gold">Search functionality with debouncing</span>
+* <span class="disney_blue">Character details modal with focus management</span>
+* <span class="globant_green">Responsive design with Disney+ branding</span>
 
-## <span class="globant_green">Next: Julian's Advanced Code Review Session!</span>
+<!-- column: 1 -->
+### <span class="workshop_gold">Generated in Minutes</span>
+* <span class="tech_cyan">Complete project structure</span>
+* <span class="disney_blue">TypeScript interfaces for API</span>
+* <span class="globant_green">React Query hooks with caching</span>
+* <span class="workshop_gold">Comprehensive test suite</span>
+* <span class="tech_cyan">Bilingual documentation</span>
 
-### <span class="disney_blue">Thank you for joining the Disney Media AI Workshop!</span>
+<!-- end_slide -->
 
-<span class="blink">🎬 ▓▓▓ CONTINUE TO SESSION 2 ▓▓▓ 🎬</span>
+<!-- font_size: 5 -->
+
+# <span class="blink">🏰 DISNEY+ RULES ACTIVATED! 🏰</span>
+## <span class="globant_green">From Generic AI to Domain Expert</span>
+### <span class="disney_blue">✅ Senior Full-Stack Engineer Profile</span>
+### <span class="tech_cyan">✅ Disney+ Technical Standards</span>
+### <span class="workshop_gold">✅ Production-Ready Code Generation</span>
+### <span class="globant_green">✅ Streaming Platform Expertise</span>
+## <span class="disney_blue">Thank you for joining the Disney Media AI Workshop!</span>
+<span class="blink">🎬 ▓▓▓ RULES MASTERY COMPLETE ▓▓▓ 🎬</span>
