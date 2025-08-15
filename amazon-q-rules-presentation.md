@@ -38,12 +38,20 @@ theme:
 ---
 
 <!-- font_size: 5 -->
-
+<!-- alignment: center -->
 # <span class="workshop_gold">🏰 DISNEY+ ENGINEERING RULES 🏰</span>
+<!-- reset_layout -->
+
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
 # <span class="disney_blue">Amazon Q Customization Workshop</span>
 ## <span class="globant_green">Powered by Globant Innovation</span>
 ## <span class="tech_cyan">👨💻 Manu Stroh - Technical Manager @ Disney Entertainment</span>
 # <span class="blink">🎬 ▓▓▓ STREAMING PLATFORM AI MASTERY ▓▓▓ 🎬</span>
+
+<!-- column: 1 -->
+![Manu Stroh](img/manus.png)
 
 <!-- end_slide -->
 
