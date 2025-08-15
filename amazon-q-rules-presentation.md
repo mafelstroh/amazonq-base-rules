@@ -283,6 +283,9 @@ describe('SearchBar', () => {
 <!-- alignment: center -->
 # <span class="workshop_gold">🎬 REAL WORLD EXAMPLE</span>
 ## <span class="disney_blue">🚀 Disney Streaming App Generated</span>
+
+![Disney App Demo](img/giphy.gif)
+
 <!-- reset_layout -->
 
 <!-- column_layout: [1, 1] -->
