@@ -46,12 +46,8 @@ theme:
 
 <!-- column: 0 -->
 # <span class="disney_blue">Amazon Q Customization Workshop</span>
-## <span class="globant_green">Powered by Globant Innovation</span>
 ## <span class="tech_cyan">👨💻 Manu Stroh - Technical Manager @ Disney Entertainment</span>
 # <span class="blink">🎬 ▓▓▓ STREAMING PLATFORM AI MASTERY ▓▓▓ 🎬</span>
-
-<!-- column: 1 -->
-![Manu Stroh](img/manus.png)
 
 <!-- end_slide -->
 
